@@ -1,0 +1,40 @@
+.wrapper {
+  margin: 0 auto;
+  width: 400px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+}
+.logo {
+  width: 100px;
+  display: block;
+  margin: 20px auto;
+}
+.contact_block {
+  margin-bottom: 25px;
+}
+.text_block {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.input_div {
+  width: 320px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+/*Validation styling*/
+.hide {
+  display: none;
+}
+.error {
+  color: red;
+}
+.valid_msg {
+  color: green;
+}
+.phone_validation_input {
+  height: 34px;
+}
